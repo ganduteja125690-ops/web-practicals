@@ -114,3 +114,37 @@ footer {
     color: white;
     margin-top: 40px;
 }
+
+/* Faculty Table Styles */
+.faculty-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.faculty-table th {
+    background: linear-gradient(135deg, #2E86C1, #154360);
+    color: white;
+    padding: 15px;
+    text-align: left;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+.faculty-table td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.faculty-table tr:last-child td {
+    border-bottom: none;
+}
+
+.faculty-table tr:hover {
+    background: #f8f9fa;
+    transition: 0.3s;
+}
